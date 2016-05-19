@@ -1,4 +1,3 @@
-var bonescriptObject = require('bonescript');
 var socket = io();
 window.onload = function(){ 
     document.getElementById("socketTest").onclick =function(){
