@@ -1,0 +1,38 @@
+/* You can select the elements based on their type*/
+
+/* For instance the paragraph will now be purple*/
+p {
+  /* For instance the paragraph will now be purple, if you type
+  color: purple;    */
+}
+
+h1 {
+    /* You can also decide to align all the H1 types on center by typing
+   text-align: center; */
+}
+
+/* You can also select the elements by class
+In index.html you will see a <P> tag associated with the class blinkyClass
+You can assign a class to any HTML object   a */
+
+.blinkyClass {
+  color: orange;
+  -webkit-animation: blink 1.5s linear infinite;
+   animation: blink 1.5s linear infinite;
+
+}
+
+@-webkit-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}

@@ -1,0 +1,5 @@
+Open index.html and public/style.css
+Observe how the two interact and modify the style of your HTML content
+
+In the console, type node nodeServer.js to start the web server
+In your web browser, type your Beaglebone IP address at port 200 to view your website

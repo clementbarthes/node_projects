@@ -1,0 +1,4 @@
+Open index.html (double-click on the file tree), then follow the instructions in the HTML comments
+
+In the console, type node nodeServer.js to start the web server
+In your web browser, type your Beaglebone IP address at port 200 to view your website

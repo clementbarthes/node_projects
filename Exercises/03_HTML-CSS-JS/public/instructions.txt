@@ -1,0 +1,3 @@
+Open index.html and public/script.js
+
+Change the HTML content using the js callback functions 

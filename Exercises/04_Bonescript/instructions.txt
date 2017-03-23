@@ -1,0 +1,9 @@
+Open analogIn.js and interrupt.js
+
+This time you are not creating a web server. You are simply executing some code on your BBB
+You can run your code by typing:
+node analogIn.js
+
+or
+
+node interrupt.js

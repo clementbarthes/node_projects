@@ -1,0 +1,15 @@
+Open sockets/sockets.js and take a close look at the instructions
+Note how the callback functions are nested inside other callback functions
+The following occurs
+
+- The web server will start our C++ as a child process. This means that when we turn off
+our web server this process will be terminated, which is exactly what we want.
+
+- The web server (our Node app) is also the IPC server. The C++ is the IPC client. Note how 
+we initiate the server using var unixServer = net.createServer(function(client) {...
+
+- When the C++ app sends data on the socket, the following callback is called:
+client.on('data',function(data){
+Note how we parse the data and send them to the web client using socket.io
+
+

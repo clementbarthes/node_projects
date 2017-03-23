@@ -1,0 +1,33 @@
+/* You can select the elements based on their type*/
+p {
+  color: purple;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+}
+
+/* You can also select the elements by class */
+
+.blinkyClass {
+  color: orange;
+  -webkit-animation: blink 1.5s linear infinite;
+   animation: blink 1.5s linear infinite;
+
+}
+
+@-webkit-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}

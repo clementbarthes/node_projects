@@ -1,0 +1,9 @@
+In this project the server sends data packets to the client via socket.io.
+Each packet contains 10 data points from the ADC. You can take a look at sockets/socket.js to 
+see what is emitted
+
+
+In public/script.js a plotting library was loaded and initialized
+
+
+

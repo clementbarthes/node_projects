@@ -1,0 +1,12 @@
+In this project socket.io is already installed in the express framework
+
+Open socket.js,  public/script.js and view/index.ejs
+
+Keep in mind that socket.js runs on the server (the BBB) and script.js runs on the client (the web page opened by the user)
+
+In index.ejs, note that a button exists with the ID "socketTest". When the user clicks this button, it will run
+a callback function in script.js
+
+In this callback function, you should use socket.emit to send a message to the server
+
+

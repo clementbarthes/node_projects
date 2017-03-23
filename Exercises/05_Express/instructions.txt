@@ -1,0 +1,23 @@
+We will setup the Express framework using the packet manager called npm
+
+- Using the bash console, go to this folder (cd /var/lib/cloud9/node_projects/Exercises/05_Express)
+
+- First you need to install express in the project folder, type the following:
+        npm install express
+
+        
+
+It is very complicated to create a proper folder structure to run an MVC web app, so we will use a tool to generate it
+- Download the tool by typing:
+        npm install express-generator -g
+        
+        The -g option will install this tool globally (you can use it for any other project)
+        
+
+- Type in the following to create your MVC web server:
+        express MyWebServerName -ejs
+        
+        We use the -ejs option in order to use encapsulated javascript later on
+        
+- You can now navigate through the folder tree structure and see what goes where
+
